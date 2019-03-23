@@ -78,7 +78,7 @@ ga_domain: lestertan.ink
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "计算机科学与技术专业本科在读，爱好日语"
+sidebar-about-description: "计算机科学与技术专业本科在读，爱好日语，终日沉浸于二次元"
 sidebar-avatar: /img/avatar-lester.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
