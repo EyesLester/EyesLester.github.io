@@ -15,7 +15,7 @@ tags:
 
 ## 第1章（JavaScript简史）
 
-**DOM**是一种API（应用编程接口），W3C对DOM的定义是：“一个与系统平台和编程语言无关的接口，程序和脚本可以通过这个接口动态地访问和修改文档的内容、结构和样式。”，它可以让*任意一种*程序设计语言对使用*任何一种*标记语言编写出来的*任何一份*文档进行操控。
+**DOM**是一种API（应用编程接口），W3C对DOM的定义是：“一个与系统平台和编程语言无关的接口，程序和脚本可以通过这个接口动态地访问和修改文档的内容、结构和样式。”，它可以让<span style="text-decoration: underline">任何一种</span>程序设计语言对使用<span style="text-decoration: underline">任何一种</span>标记语言编写出来的<span style="text-decoration: underline">任何一份</span>文档进行操控。
 
 
 
@@ -39,7 +39,7 @@ beatles[3] = "Ringo";
 
 ```javascript
 //两者皆可
-var beatles = Array("John","Paul","George","Ringo")；
+var beatles = Array("John","Paul","George","Ringo");
 var beatles = ["John","Paul","George","Ringo"];
 ```
 
@@ -49,10 +49,22 @@ var beatles = ["John","Paul","George","Ringo"];
 var lennon = Array();
 lennon["name"] = "John";
 lennon["year"] = 1940;
-lennon["living"] = false;
+lennon["living"] = false
 ```
 
------
+通过`Array`对象的`length`属性可以获得数组元素个数，例如`beatles.length`
 
-**To be continued.**
+### 操作符
+
+`==`不表示严格相等，如表达式`false == ""`的值为真，因为相等操作符认为空字符串和false含义相同。要进行严格比较时使用全等操作符`===`，它会比较值和类型。
+
+相似地，表示不相等的`!=`和`!==`也是如此。
+
+
+
+
+
+
+
+
 
