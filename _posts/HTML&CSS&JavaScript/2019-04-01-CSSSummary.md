@@ -31,12 +31,7 @@ tags:
 | :----------: | ------------------------------------ | :----------------------------------------------------------: | :----------------------: | :-------------------------------------------------------: |
 |     font     | 简写属性在一个声明中设置所有字体属性 | *font-style*；<br/>*font-variant*；<br/>*font-weight*；<br/>*font-size/line-height*；<br/>*font-family*； |            无            |                            无                             |
 | font-family  | 规定元素的字体系列                   |               *family-name* *generic-family*；               |    font-family: serif    |    <span style="font-family: serif">For example</span>    |
-|  font-size   | 设置字体的尺寸                       | xx-small；<br/>x-small；<br/>
-small；<br/>
-medium(默认)；<br/>
-large；<br/>
-x-large；<br/>
-xx-large；<br/>smaller(比父元素小)；<br/>larger(比父元素大)；<br>*length*；<br/>*%*； |    font-size: larger     |    <span style="font-size: larger">For example</span>     |
+|  font-size   | 设置字体的尺寸                       | xx-small；<br/>x-small；<br/>small；<br/>medium(默认)；<br/>large；<br/>x-large；<br/>xx-large；<br/>smaller(比父元素小)；<br/>larger(比父元素大)；<br>*length*；<br/>*%*； |    font-size: larger     |    <span style="font-size: larger">For example</span>     |
 |  font-style  | 定义字体的风格                       |             normal；<br/>italic；<br/>oblique；              |    font-style: italic    |    <span style="font-style: italic">For example</span>    |
 | font-variant | 所有字母转换为小型大写               |                  normal；<br/>small-caps；                   | font-variant: small-caps | <span style="font-variant: small-caps">For example</span> |
 | font-weight  | 设置文本的粗细                       | normal(400)；<br/>bold(700)；<br/>bolder；<br/>lighter；<br/>100~700； |    font-weight: bold     |    <span style="font-weight: bold">For example</span>     |
