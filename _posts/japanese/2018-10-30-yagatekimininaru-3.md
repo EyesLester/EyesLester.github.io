@@ -6,6 +6,7 @@ date: 2018-10-30 00:00:00
 author: "Lester Tan"
 header-img: "img/yagakimi.jpg"
 catalog: true
+style: japanese-font
 tags: 
     - 终将成为你
     - 动画
