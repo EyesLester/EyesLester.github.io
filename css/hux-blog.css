@@ -1439,4 +1439,6 @@ img::-moz-selection {
 }
 .japanese-font{
     font-family:-apple-system,BlinkMacSystemFont,"游ゴシック",SimSun,sans-serif;
+    font-weight:500;
+    font-size:17.1px;
 }
