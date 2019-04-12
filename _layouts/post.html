@@ -10,7 +10,7 @@ layout: default
 {% include intro-header.html type='post' %}
 
 <!-- Post Content -->
-<article class="{% if page.style %}{{ page.style }} {% endif %}">
+<article>
     <div class="container">
         <div class="row">
 
@@ -28,8 +28,10 @@ layout: default
                     <option value="1"> 英文 English </option>
                 </select>
                 {% endif %}
-
+                
+                <div class="{% if page.style %}{{ page.style }} {% endif %}">
 				{{ content }}
+                </div>
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">
